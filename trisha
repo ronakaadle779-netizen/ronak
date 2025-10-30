@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student ID Card - Suryodaya College of Engineering</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eaeaea;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .id-card {
+      width: 300px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .college-logo {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .college-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #004080;
+      margin-bottom: 5px;
+    }
+
+    .student-photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 2px solid #004080;
+      margin: 10px 0;
+      object-fit: cover;
+    }
+
+    .student-name {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .info {
+      margin-top: 10px;
+      text-align: left;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .info p {
+      margin: 4px 0;
+    }
+
+    .footer {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #666;
+      border-top: 1px solid #ccc;
+      padding-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="id-card">
+    <img src="https://via.placeholder.com/70x70?text=Logo" alt="College Logo" class="college-logo">
+    <div class="college-name">Suryodaya College of Engineering</div>
+    <img src="https://via.placeholder.com/100x100?text=Photo" alt="Student Photo" class="student-photo">
+    <div class="student-name">Ronak</div>
+
+    <div class="info">
+      <p><strong>Branch:</strong> Computer Engineering</p>
+      <p><strong>Year:</strong> 3rd Year</p>
+      <p><strong>Roll No:</strong> 23CE045</p>
+      <p><strong>ID No:</strong> SCE2025-045</p>
+    </div>
+
+    <div class="footer">
+      Suryodaya College of Engineering, Nagpur<br>
+      www.suryodayacollege.edu.in
+    </div>
+  </div>
+
+</body>
+</html>
